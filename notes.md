@@ -3,7 +3,7 @@
 
 To “fork” your own repo on github you must
 - create a new blank repo with a unique name on github
-- clone the new empty repo to your local drive git clone <originalRepo> <newProjectName>
+- clone the new empty repo to your local drive git clone <originalRepo> <newfcos>
 - add upstream on the new local repo to the repo you are forking from: git remote add upstream <originalRepo>
 - verify upstream address: git remote -v
 - fetch from the upstream repo (original): git fetch upstream

@@ -30,15 +30,15 @@
 
  // START Editing Project Variables. Use the guide in the ReadMe.
  // Project related.
- var client                  = 'Project_Name'; // Human readable, spaces allowed.
- var project                 = 'projectName'; // Computer readable, no spaces, used in filenames.
- var projectURL              = 'ProjectURLBase.dev'; // Project URL. Could be something like localhost:8888.
+ var client                  = 'FCOS'; // Human readable, spaces allowed.
+ var project                 = 'fcos'; // Computer readable, no spaces, used in filenames.
+ var projectURL              = 'fcos.dev'; // Project URL. Could be something like localhost:8888.
  var productURL              = './'; // Theme/Plugin URL. Leave it like it is, since our gulpfile.js lives in the root folder.
 
  // // Translation related for WP
- // var text_domain             = 'ProjectURLBase'; // Your textdomain here.
- // var destFile                = 'ProjectURLBase.pot'; // Name of the transalation file.
- // var packageName             = 'ProjectURLBase'; // Package name.
+ // var text_domain             = 'fcos'; // Your textdomain here.
+ // var destFile                = 'fcos.pot'; // Name of the transalation file.
+ // var packageName             = 'fcos'; // Package name.
  // var bugReport               = ''; // Where can users report bugs.
  // var lastTranslator          = 'Jeffrey Scott French <jeffreyscottfrench@gmail.com>'; // Last translator Email ID.
  // var team                    = ''; // Team's Email ID.

@@ -29,11 +29,11 @@ License: MIT or as noted by original authors.
 
 ##### Search/Replace
 Case sensitive. Replace these placeholders in your project folder, examples given:
-* Project_Name         --> FCOS
-* projectName          --> FCOS
-* ProjectURLBase       --> fcos
-* ProjectAcronym       --> fcos
-* url-social-mail      --> mailto:caleb@fcos.io
+* FCOS         --> FCOS
+* fcos          --> FCOS
+* fcos       --> fcos
+* fcos       --> fcos
+* mailto:caleb@fcos.io      --> mailto:caleb@fcos.io
 * url-social-facebook  --> 
 * url-social-instagram --> 
 
