@@ -1,1 +1,90 @@
 // custom styles for this project only
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body.holding-page {
+  & .super-container > header,
+  & .super-container > footer {
+    display: none;
+  }
+
+  & .main {
+    width: 100vw;
+    min-height: 100vh;
+    max-width: 100vw;
+  }
+
+  & section.container-section {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  & div.container__branding {
+    width: 250px;
+
+    @media (min-width: $break-large){
+      width: 400px;
+    }
+
+    & .figure__svg {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+
+      & svg path {
+        fill: $color-primary;
+      }
+      & svg line {
+        stroke: $color-primary;
+      }
+    }
+
+    & .title__branding {
+      margin: 0;
+      padding: .75% 2%;
+    }
+  }
+
+  & svg {
+    display: block;
+  }
+}
+
+.title__branding {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: baseline;
+
+  font-family: $font-primary;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.05em;
+
+  @media (min-width: $break-large){
+    font-size: 28px;
+  }
+
+  & span.left {
+    display: block;
+    text-align: left;
+    margin: 0 auto 0 0;
+  }
+
+  & span.right {
+    display: block;
+    text-align: right;
+    margin: 0 0 0 auto;
+  }
+}

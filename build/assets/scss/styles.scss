@@ -1,6 +1,7 @@
 /* Import partials from sass directory
 -------------------------------------------------- */
 @import
+  "fonts", // adds custom fonts
   "variables", // define most common variables used
   "devUtils",
   "mixins", // self-curated and self-written mixins
