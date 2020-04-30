@@ -1,19 +1,16 @@
 {% extends "layout.njk" %}
 
+{% set body_special_class %}holding-page{% endset %}
 
 {% block content %}
 <section class="container-section">
-  <h1>
-    FCOS
-  </h1>
-  <p>
-    A work in progress.
-  </p>
-  <p>
-    Brought to you by Caleb & Jeff
-  </p>
-  <p>
-    More info... doesn't exisit!
-  </p>
+  <div class="container__branding">
+    <figure class="figure__svg">
+      {% include "partials/svg__FCoS.njk" %}
+    </figure>
+    <h3 class="title__branding">
+      <span class="left">work</span><span class="right">in &nbsp;progress</span>
+    </h3>
+  </div>
 </section>
 {% endblock %}
